@@ -140,10 +140,21 @@
           </li>
 
           <li class="social-item">
-            <a href="https://www.instagram.com/nikhil_maurya_010/" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
+           <!-- <a href= "class="social-link">
+              <ion-icon name="logo-instagram"> -->
+		    <div class="popup" onclick="myFunction()"> <a href= "class="social-link"><ion-icon name="logo-instagram"> </ion-icon> </a>
+                                <span class="popuptext" id="myPopup">A Simple Popup!</span>
+                        </div>
+
+<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+	      </ion-icon>
+            <!--</a>
+          </li>-->
 
         </ul>
 
